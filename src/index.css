@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+.master {
+	font-size: 18px;
+	font-family: 'Hanken Grotesk', sans-serif;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(221, 100%, 96%);
+	font-weight: 500;
+}
+
+.card {
+	background-color: white;
+	width: 700px;
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	border-radius: 18px;
+}
+
+.left {
+	background: linear-gradient(
+		to bottom,
+		hsl(252, 100%, 67%),
+		hsl(241, 81%, 54%)
+	);
+	border-radius: 18px;
+	padding: 36px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 50%;
+}
+
+.left-head {
+	color: hsl(241, 100%, 89%);
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.result {
+	background: linear-gradient(
+		to bottom,
+		hsla(256, 72%, 46%, 1),
+		hsla(241, 72%, 46%, 0)
+	);
+
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.result .top {
+	color: white;
+	font-weight: 800;
+	font-size: 54px;
+}
+
+.result .bot {
+	color: hsla(241, 100%, 89%, 0.5);
+	font-size: 13px;
+}
+
+.great {
+	color: white;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.description {
+	color: hsl(241, 100%, 89%);
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 23px;
+}
+
+.right {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 36px;
+	width: 50%;
+}
+
+.right-head {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.subject {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#Reaction {
+	background-color: hsla(0, 100%, 67%, 0.1);
+	height: 30px;
+	padding: 7px;
+	border-radius: 10px;
+}
+
+#Memory {
+	background-color: hsla(39, 100%, 56%, 0.1);
+	height: 30px;
+	padding: 7px;
+	border-radius: 10px;
+}
+
+#Verbal {
+	background-color: hsla(166, 100%, 37%, 0.1);
+	height: 30px;
+	padding: 7px;
+	border-radius: 10px;
+}
+
+#Visual {
+	background-color: hsla(234, 85%, 45%, 0.1);
+	height: 30px;
+	padding: 7px;
+	border-radius: 10px;
+}
+
+.subject div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 16px;
+}
+
+.subject div img {
+	margin-right: 10px;
+}
+
+.marks {
+	display: flex;
+	flex-direction: row;
+	color: hsl(241, 100%, 89%);
+}
+
+.subject .mark {
+	color: black;
+	font-size: 18px;
+}
+
+button {
+	/* all: reset; */
+	border: none;
+	outline: none;
+	background: none;
+	box-shadow: none;
+
+	font-size: 16px;
+	font-family: 'Hanken Grotesk', sans-serif;
+	font-weight: 500;
+	color: white;
+	background-color: hsl(224, 30%, 27%);
+	width: 100%;
+	height: 40px;
+	border-radius: 20px;
+}
+
+button:hover {
+	background: linear-gradient(
+		to bottom,
+		hsl(252, 100%, 67%),
+		hsl(241, 81%, 54%)
+	);
+	cursor: pointer;
+}
+
+.footer {
+	position: fixed;
+	bottom: 5px;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+}
