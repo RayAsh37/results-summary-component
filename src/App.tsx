@@ -93,7 +93,11 @@ function App() {
 					rel='noopener'>
 					Frontend Mentor
 				</a>
-				. Coded by <a href='#'>Your Name Here</a>.
+				. Coded by{' '}
+				<a href='https://github.com/RayAsh37/results-summary-component'>
+					Ashray Shetty
+				</a>
+				.
 			</div>
 		</>
 	);
